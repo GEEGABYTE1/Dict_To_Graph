@@ -5,6 +5,21 @@ Takes a dictionary and converts it into a graph.
 
 `create_path` will generate a path between two vertices if a path does not exist already by default. 
 
+# Example 
+
+- `a -> c `
+- `b -> c `
+- `b -> e `
+- `c -> a `
+- `c -> b `
+- `c -> d `
+- `c -> e `
+- `d -> c `
+- `e -> c `
+- `e -> b `
+
+
+
 
 # Extras 
 
