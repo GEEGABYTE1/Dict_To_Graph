@@ -72,7 +72,7 @@ class Prompt:
         print(lst)
 
     
-    def gen_paths(self, dictionary, from_key, to_key):
+    def gen_path(self, dictionary, from_key, to_key):
         self.lst = []
         values = []
         test_lst = []
@@ -120,7 +120,7 @@ class Prompt:
 
     
     
-    def gen_path(self, dictionary, from_key, to_key):
+    def create_path(self, dictionary, from_key, to_key):
         lst = []
         lst.append(from_key)
         values = []
@@ -195,4 +195,4 @@ dictionary_test2 = {
 
 test2 = Prompt(dictionary_test2)
 
-test2.path(dictionary_test2, "a", "e")
+test2.gen_path(dictionary_test2, "a", "e")
